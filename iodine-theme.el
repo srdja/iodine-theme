@@ -34,7 +34,7 @@
  '(fringe ((t (:background "#ededed" :foreground "black" :weight light :width ultra-condensed))))
  '(header-line ((t (:background "dark gray" :foreground "black" :overline "black" :underline "black" :weight bold))))
  '(tooltip ((t (:foreground "black" :background "light yellow"))))
- '(mode-line ((t (:background "#1e2626" :foreground "#7D9C9F" :box (:line-width 1 :color "#222b2b")))))
+ '(mode-line ((t (:box (:line-width 1 :color "#222b2b") :foreground "#c8d0ff" :background "#2b2d3b"))))
  '(mode-line-buffer-id ((t (:foreground "white" :weight bold))))
  '(mode-line-emphasis ((t (:foreground "white" :weight bold))))
  '(mode-line-highlight ((t (:background "#1e2626" :foreground "#dfeff0"))))
