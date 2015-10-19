@@ -15,11 +15,11 @@
 
 
 (deftheme iodine
-  "Created 2015-10-19.")
+  "Created 2015-10-20.")
 
 (custom-theme-set-faces
  'iodine
- '(cursor ((t (:background "dark slate gray"))))
+ '(cursor ((t (:background "#3e4155"))))
  '(fixed-pitch ((t (:family "Monospace"))))
  '(variable-pitch ((t (:family "Sans Serif"))))
  '(escape-glyph ((t (:foreground "#008ED1"))))
@@ -50,7 +50,7 @@
  '(fringe ((t (:background "#ededed" :foreground "black" :weight light :width ultra-condensed))))
  '(header-line ((t (:background "dark gray" :foreground "black" :overline "black" :underline "black" :weight bold))))
  '(tooltip ((t (:foreground "black" :background "light yellow"))))
- '(mode-line ((t (:box (:line-width 1 :color "#222b2b") :foreground "#c8d0ff" :background "#2b2d3b"))))
+ '(mode-line ((t (:background "#2b2d3b" :foreground "#c8d0ff" :box (:line-width 1 :color "#222b2b")))))
  '(mode-line-buffer-id ((t (:foreground "white" :weight bold))))
  '(mode-line-emphasis ((t (:foreground "white" :weight bold))))
  '(mode-line-highlight ((t (:background "#1e2626" :foreground "#dfeff0"))))
