@@ -1,5 +1,5 @@
 (deftheme iodine
-  "Created 2015-09-01.")
+  "Created 2015-10-19.")
 
 (custom-theme-set-faces
  'iodine
@@ -9,7 +9,7 @@
  '(escape-glyph ((t (:foreground "#008ED1"))))
  '(minibuffer-prompt ((t (:background "#B1B1B1" :foreground "black" :weight bold))))
  '(highlight ((t (:background "dark violet" :foreground "white" :underline nil))))
- '(region ((t (:background "#BDD8DA" :foreground "black"))))
+ '(region ((t (:background "#c5cdff" :foreground "black"))))
  '(shadow ((t (:foreground "#7F7F7F"))))
  '(secondary-selection ((t (:weight bold :background "#FBE448"))))
  '(trailing-whitespace ((t (:background "#FFFF57"))))
@@ -45,7 +45,7 @@
  '(match ((t (:background "#FBE448" :underline nil :weight bold))))
  '(next-error ((t (:underline nil :background "#FFF876"))))
  '(query-replace ((t (:inherit isearch))))
- '(linum ((t (:background "#7d9c9f" :foreground "#dfeff0"))))
+ '(linum ((t (:background "#3e4155" :foreground "white"))))
  '(tty-menu-selected-face ((t (:background "red"))))
  '(ido-first-match ((t (:foreground "dark violet" :weight bold))))
  '(ido-indicator ((((min-colors 88) (class color)) (:width condensed :background "red1" :foreground "yellow1")) (((class color)) (:width condensed :background "red" :foreground "yellow")) (t (:inverse-video t))))
@@ -67,7 +67,7 @@
  '(widget-button ((t (:weight bold))))
  '(widget-button-pressed ((((min-colors 88) (class color)) (:foreground "red1")) (((class color)) (:foreground "red")) (t (:underline (:color foreground-color :style line) :weight bold))))
  '(window-divider-last-pixel ((t (:foreground "gray40"))))
- '(default ((t (:family "DejaVu Sans Mono" :foundry "unknown" :width normal :height 98 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "#333333" :background "#FFFFFF" :stipple nil :inherit nil))))
- '(underline ((t (:underline (:color foreground-color :style line))))))
+ '(underline ((t (:underline (:color foreground-color :style line)))))
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "unknown" :width normal :height 98 :weight normal :slant normal :underline nil :overline nil :strike-through nil :box nil :inverse-video nil :foreground "#333333" :background "#FFFFFF" :stipple nil :inherit nil)))))
 
 (provide-theme 'iodine)
