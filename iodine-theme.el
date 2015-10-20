@@ -165,5 +165,10 @@
  '(info-title-3      ((t (:height 1.2 :inherit (info-title-4)))))
  '(info-xref         ((t (:foreground "dark violet")))))
 
+;;;###autoload
+(when (boundp 'custom-theme-load-path)
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'iodine)
 ;;; iodine-theme.el ends here
