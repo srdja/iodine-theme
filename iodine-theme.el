@@ -166,7 +166,7 @@
  '(info-xref         ((t (:foreground "dark violet")))))
 
 ;;;###autoload
-(when (boundp 'custom-theme-load-path)
+(when (and load-file-name (boundp 'custom-theme-load-path))
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
