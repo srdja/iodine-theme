@@ -124,8 +124,7 @@
  '(custom-group-tag          ((t (:foreground "dark violet" :weight bold :height 1.2))))
  '(custom-documentation      ((t nil)))
  '(default                   ((t
-                               (:family "DejaVu Sans Mono"
-                                        :foundry "unknown"
+                               (        :foundry "unknown"
                                         :width normal
                                         :height 98
                                         :weight normal
